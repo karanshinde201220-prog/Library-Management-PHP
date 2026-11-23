@@ -1,0 +1,1 @@
+<?php require __DIR__.'/header.php'; ?><div class="app-shell"><?php require __DIR__.'/sidebar.php'; ?><main class="main"><header class="topbar"><div><span class="eyebrow">LIBRARY MANAGEMENT</span><h1><?=e($pageTitle??'Dashboard')?></h1></div><div class="top-user"><span class="online-dot"></span><?=e($u['name']??'')?></div></header><section class="content"><?php show_flash(); ?>
